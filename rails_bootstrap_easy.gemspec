@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = RailsBootstrapEasy::VERSION
   s.authors     = ["Sergey Tsvetkov"]
   s.email       = ["sergey.a.tsvetkov@gmail.com"]
-  s.homepage    = "bootstrap-easy.kimrgrey.org"
+  s.homepage    = "http://bootstrap-easy.org"
   s.summary     = "Set of helpers that simplify a work with Bootstrap for RoR developers."
   s.description = "Set of helpers that simplify a work with Bootstrap for RoR developers."
   s.license     = "MIT"
@@ -16,4 +16,8 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.1.0"
+
+  s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "spork"
+  s.add_development_dependency "sqlite3"
 end
